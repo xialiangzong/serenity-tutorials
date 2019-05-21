@@ -1,0 +1,19 @@
+<acceptance-test-run title="Should be able to navigate to the motors category" name="shouldBeAbleToNavigateToTheMotorsCategory" steps="3" successful="0" failures="0" errors="1" skipped="2" ignored="0" pending="0" annotated-result="ERROR" result="ERROR" duration="48920" timestamp="2019-05-21T17:53:00.273+08:00">
+  <user-story id="net.serenitybdd.tutorials.features.navigation.WhenBrowsingProductCategories" name="When browsing product categories" path="net.serenitybdd.tutorials.features.navigation"/>
+  <tags>
+    <tag name="Navigation" type="feature"/>
+    <tag name="Navigation/When browsing product categories" type="story"/>
+  </tags>
+  <test-step result="ERROR" duration="48832">
+    <description>Is on the home page</description>
+    <error>net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</error>
+    <exception>net.thucydides.core.webdriver.UnsupportedDriverException:Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver&#xd;
+[net.serenitybdd.tutorials.steps.NavigatingUser.isOnTheHomePage(NavigatingUser.java:17), net.serenitybdd.tutorials.features.navigation.WhenBrowsingProductCategories.shouldBeAbleToNavigateToTheMotorsCategory(WhenBrowsingProductCategories.java:23)]</exception>
+  </test-step>
+  <test-step result="SKIPPED" duration="0">
+    <description>Navigates to category: &lt;span class=&apos;step-parameter&apos;&gt;Motors&lt;/span&gt;</description>
+  </test-step>
+  <test-step result="SKIPPED" duration="1">
+    <description>Should see page title containing: &lt;span class=&apos;step-parameter&apos;&gt;New &amp; used cars&lt;/span&gt;</description>
+  </test-step>
+</acceptance-test-run>
